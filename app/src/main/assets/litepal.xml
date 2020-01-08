@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--<dbname>标签用于指定数据库名；<version>标签用于指定数据库版本号-->
+    <dbname value="BookStore"></dbname>
+    <version value="4"></version>
+    <!--<mapping>标签声明配置的映射模型类，不管有多少模型类需要映射，
+    都使用同样的方式配置在<list>标签下即可-->
+    <list>
+        <mapping class="com.ysccc.litepaltest.Book"></mapping>
+        <mapping class="com.ysccc.litepaltest.Category"></mapping>
+    </list>
+</litepal>
